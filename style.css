@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap");
+
+body {
+  margin: 0;
+}
+
+p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.logo {
+  background-image: url(images/Logo.png);
+  width: 120px;
+  height: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  height: 90px;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  gap: 50px;
+}
+
+header a {
+  color: #1e1b1b;
+  text-decoration: none;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.sales {
+  display: flex;
+}
+
+.other {
+  width: 867px;
+  height: 624px;
+  background-image: url(images/BG.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Manrope;
+  font-size: 64px;
+  font-weight: 900;
+  color: white;
+}
+
+.trending {
+  background-color: #353434;
+  width: 1053px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 50px;
+}
+
+.trending-text {
+  color: #ff6433;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.24em;
+}
+
+.trending h2 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 140%;
+  color: white;
+}
+
+.trending .button {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 125%;
+  padding: 16px 40px;
+  background-color: #ff6433;
+  color: white;
+  display: inline-block;
+  border-radius: 12px;
+}
+
+.madein {
+  display: inline-block;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 175%;
+  color: white;
+  margin-left: 28px;
+}
+
+.trending p {
+  margin: 50px 0;
+  color: white;
+}
+.boy {
+  width: 841px;
+  height: 1002px;
+  background-image: url(images/boy.png);
+  position: relative;
+}
+.advantages {
+  width: 780px;
+  height: 1002px;
+  background-color: rgba(255, 100, 34, 0.36);
+}
+
+.advantages ol {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  list-style: none;
+}
+
+.advantages ol li {
+  margin: 150px 0;
+}
+
+.two {
+  display: flex;
+}
+
+.black-rect {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  background-color: black;
+  color: white;
+  width: 546px;
+  height: 236px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 35px;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  bottom: 10%;
+}
+
+.black-rect span {
+  font-size: 18px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card img {
+  width: 27vw;
+}
+
+.card .date {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #939191;
+}
+
+.card .title {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #1e1b1b;
+}
+
+.card .description {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  width: 320px;
+}
+
+.cards {
+    display: flex;
+    gap: 50px;
+    margin: 100px 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
